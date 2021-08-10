@@ -1,0 +1,87 @@
+@font-face {
+
+    font-family: "OpenSans"; 
+
+    /* src: url("./fonts/1942report/1942.ttf"); */
+    /* src:url("./fonts/ADrippingMarker/adrip1.ttf") ; */
+    /* src:url("./fonts/AnandaBlack/AnandaBlackPersonalUse.ttf"); */
+    /* src:url("./fonts/BananaBrick/BananaBrick.ttf"); */
+    /* src:url("./fonts/Debby/Debby.ttf"); */
+    /* src:url("./fonts/Orial/Orial_Bold.otf"); */
+    /* src:url("./fonts/StyleScript/StyleScript-Regular.ttf"); */
+    /* src:url("./fonts/TriodPostnaja/TriodPostnaja.ttf"); */
+    /* src: url("./fonts/WindSong/WindSong-Medium.ttf"); */
+    /* src: url("./fonts/Shlapak Script/Shlapak Script.otf"); */
+    src: url("./fonts/Open_Sans/OpenSans-Bold.ttf");
+    /* font-style: normal; 
+    font-weight: normal;   */
+} 
+
+* {
+    font-family: 'OpenSans';
+    font-weight: bolder;
+    font-size: 3.5vh;
+    /* text-shadow: 1px 1px 2px black, 0 0 1vh black, 0 0 0.2em black; */
+    /* text-transform:unset;
+    text-overflow: ellipsis; */
+}
+
+a:any-link {
+    color: green;
+  }
+
+.card__highlightCard.CardSmall {
+    margin-top: 50px;
+}
+
+a {
+ display: block;
+}
+
+.menuItem {
+    /* background: url('icons/ng-cli-krta300.png');
+    background-image: url('icons/ng-cli-krta300.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: auto auto; */
+    /* z-index: 12; */
+    /* background-color: blanchedalmond; */
+
+}
+
+
+
+
+.cli {
+    position: fixed;
+    display: contents;
+    
+    /* background-image: url('icons/ng-cli-krta300.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: auto auto; */
+    /* z-index: 12; */
+}
+
+.img {
+    /* display: contents; */
+    z-index: 500;
+}
+
+#iconcli {
+    z-index: 7;
+    
+}
+
+.img #iconcli {
+    box-sizing: content-box;
+    content: url('icons/ng-cli-krta300.png');
+}
+
+#button {
+    display: block;
+    position: absolute;
+    height: 31vh;
+    width: 18vw;
+    z-index: 0;
+}
