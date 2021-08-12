@@ -1,3 +1,47 @@
 * {
+    
     z-index: 500;
+}
+
+h1 {
+
+    margin-right: 5vw;
+    color: rgb(255, 208, 0);
+}
+
+.paragraph {
+    width: 100vw;
+    display: block;
+    text-align: left;
+    z-index: 500;
+    /* position: absolute; */
+    color: black;
+    margin-right: 3vw;
+    margin-left: 3vw;
+}
+
+.textContainer {
+    text-align: center;
+    
+}
+
+
+.codeFrame {
+    display: inline-block;
+    margin: 10px;
+    background-color: black;
+    color: green;
+}
+
+.imageContent {
+    margin-left: 10vw;
+    margin-top: 2vw;
+    width: 620px;
+    height: 335px;
+    z-index: 500;
+    background-image: url("./ng-bash.png");
+    background-size: cover;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    
 }

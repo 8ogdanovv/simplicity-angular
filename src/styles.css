@@ -1,3 +1,5 @@
 body {
     background-color: rgba(136, 51, 63, 0.699);
+    overflow-x: hidden;
   }
+
