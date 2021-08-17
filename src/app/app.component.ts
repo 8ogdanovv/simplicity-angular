@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Simple Angular';
+  title: string = 'HOW IT WORKS?!..';
   pic1: string = "app/icons/ng-cli-krta300.png";
   picwidth: string = "150";
   picheight: string = "150";

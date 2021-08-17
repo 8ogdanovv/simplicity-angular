@@ -1,7 +1,8 @@
 <div class="paragraph">
-    <H1>HOW ng-cli WORKS?!..</H1>
+    <div class="mainTitle">{{mainTitle}}</div>
+    <H1>ng-cli  {{ title }}</H1>
     <div class="textContainer">
-        Angular CLI is a pretty cool tool, feature of Angular whis those we'll start on our tour.
+        Angular CLI is a pretty cool tool, feature of Angular with those we'll start on our tour.
         
 <p>
     So...Let's Go ! ! !
@@ -14,20 +15,18 @@
         (that includes <a href="https://www.npmjs.com/">Node Package Manager</a>)
         and some kind of <a href="https://en.wikipedia.org/wiki/Integrated_development_environment">IDE</a>
         (like <a href="https://code.visualstudio.com/download">VSCode</a>).
-<p>
-    You can use the Angular CLI to run commands in your terminal for generating, building, testing, and deploying Angular applications.
-</p>
-<p>To install the Angular CLI, run the following command in your <a href="https://code.visualstudio.com/docs/editor/integrated-terminal">terminal:</a></p>
+<p> You can use the Angular CLI to run commands in your terminal for generating, building, testing, and deploying Angular applications.<br>
+To install the Angular CLI, run the following command in your <a href="https://code.visualstudio.com/docs/editor/integrated-terminal">terminal:</a><br></p>
 <div class="codeFrame">
     npm install -g @angular/cli
 </div>
 <p>
-    It'll install Angular CLI globaly (-g) whis help of Node Package Manager.
-    It may not works w\o </p><div class="codeFrame">sudo</div> in some cases according to the features of Debian-cored OS and <a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)">Bash</a>.
+    It'll install Angular CLI globaly (-g) with help of Node Package Manager.
+    It may not works w\o </p><div class="codeFrame" id="spaceadd">sudo </div> in some cases according to the dependencies of Debian-cored OS and <a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)">Bash</a>.
     <br>
     <br>
     <div>
-        If You allready installed Angular CLI You may check its' version by command:<div class="codeFrame">ng v</div>
+        If You allready installed Angular CLI You can check its' version by command:<div class="codeFrame">ng v</div>
         <br>Than You may see something like this on your output:
         <br>
         <div class="imageContent">
@@ -37,11 +36,31 @@
         <div>
             Angular CLI can help You create your first <a href="https://en.wikipedia.org/wiki/Single-page_application">single-page application</a>.<br>
             Simply just choose in your command-line a directory wich will be main-containing (root) relatively to your project.<br>
-            And than type command <div class="codeFrame" alt="command">ng new</div>& e.g.<div class="codeFrame" alt="project-name">simple-angular</div> < as your project title name in your terminal window. 
+             
+            And than type command <div class="codeFrame" alt="command" id="spaceadd">ng new </div>& e.g.<div class="codeFrame" alt="project-name">simple-angular</div> < as your project title name in your terminal window.<br>
+            In this case Angular CLI automaticaly creates new application in chosen root directory in folder named as you've type in order to your project title.<br>
+            <br>
+            While the project is building CLI will ask You about using Routing and CSS preprocessors - so You can config those options personaly.<br>
+            According to this Simple-Angular tour we've turned router ON as default at the start and turn no one of complex CSS <a href="https://en.wikipedia.org/wiki/Preprocessor">polyfills</a> on.<br>
+            <br>
+            You can choose directory with command <div class="codeFrame" id="spaceadd">cd </div>& e.g.<div class="codeFrame">simple-angular</div> (or exactly your project directory title name).<br>
+            and than run your application with command <div class="codeFrame">ng serve -o</div> at localhost (as default on port :400 http://localhost:4200/) & open it in a new window what flag <div class="codeFrame">-o</div>means (<div class="codeFrame">--open</div> is the same).
+            <br>
+            Another typicaly commands are:<br>
+            <div class="codeFrame" id="spaceadd">ng generte component</div> & e.g. <div class="codeFrame">ng-cli</div> - it'll make new angular component "ng-cli", and its' directory named "/ng-cli" incuding .componet.html, .component.css, .component.ts & .component.spec.ts files.<br>
+            <div class="imageContentt">
+                <!-- <img src="./ng-bash.png" width="1271" height="672"> -->
+            </div>
+            <div class="contentPlus">
+                You can also use shorter syntax to generate the same component:<br>
+                <div class="codeFrame">ng g c ng-cli</div>, where "ng-cli" is the name of your new Angular component. It'll also works.
+            </div>
+            <br>
+            <br>Another Angular CLI commands You will see if You'll type <div class="codeFrame">ng help</div>.<br>
+            <div class="imageContenttt">
+                <!-- <img src="./ng-bash.png" width="1271" height="672"> -->
+            </div>
 
-            <div class="codeFrame">cd</div>& e.g.<div class="codeFrame">simple-angular</div>
-            and than <div class="codeFrame">ng serve -o</div> that is requred to run localhost (& open it in a new window what flag -o means (--open also))
-            
         </div>
     </div>
         

@@ -1,13 +1,40 @@
-* {
-    
-    z-index: 500;
-}
+
 
 h1 {
-
-    margin-right: 5vw;
+    margin-top: -0.1vw;
+    display: inline-block;
+    z-index: 666;
+    margin-left: 5vw;
     color: rgb(255, 208, 0);
+    position: relative;
+    box-shadow: 0px 0px 33px 33px rgba(255, 238, 0, 0.479);
+    padding-left: 3vw;
+    padding-right: 3vw;
+    /* text-align: justify; */
+    /* width: 50vw; */
+    /* vertical-align: super; */
 }
+
+.mainTitle {
+    /* display: block; */
+    width: 100%;
+    height: 100%;
+    color: antiquewhite;
+    /* display: flex; */
+    font-size: 10vw;
+    /* background-attachment:scroll ; */
+    position: fixed;
+    top:36vw;
+    left:15vw;
+    text-align: center;
+    z-index: -100;
+    background-size:cover;
+    text-shadow: rgb(255, 250, 230) 0 0 25px;
+    opacity: 55%;
+
+    
+}
+
 
 .paragraph {
     width: 100vw;
@@ -16,12 +43,14 @@ h1 {
     z-index: 500;
     /* position: absolute; */
     color: black;
-    margin-right: 3vw;
-    margin-left: 3vw;
+    /* margin-right: 3vw; */
+    /* margin-left: 3vw; */
 }
 
 .textContainer {
-    text-align: center;
+    margin: 3vw;
+    text-align: left;
+    
     
 }
 
@@ -41,7 +70,37 @@ h1 {
     z-index: 500;
     background-image: url("./ng-bash.png");
     background-size: cover;
-    margin-left: 30vw;
-    margin-right: 30vw;
+    margin-left: 4vw;
+    /* margin-right: 30vw; */
     
+}
+
+.imageContentt {
+    margin-left: 10vw;
+    margin-top: 2vw;
+    width: 200px;
+    height: 335px;
+    z-index: 500;
+    background-image: url("./ng-g-c.png");
+    background-size: cover;
+    margin-left: 4vw;
+}
+
+.imageContenttt {
+    margin-left: 10vw;
+    margin-top: 2vw;
+    width: 600px;
+    height: 335px;
+    z-index: 500;
+    background-image: url("./ng-help.png");
+    background-size: cover;
+    margin-left: 4vw;
+}
+
+#spaceadd {
+    position: relative;
+    display: inline;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-right: 1.5vw;
 }

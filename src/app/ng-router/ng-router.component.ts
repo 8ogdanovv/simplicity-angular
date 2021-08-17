@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ng-router.component.css']
 })
 export class NgRouterComponent implements OnInit {
+  title: string = ' HOW IT WORKS?!..';
 
   constructor() { }
 
