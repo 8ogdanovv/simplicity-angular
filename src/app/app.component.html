@@ -169,8 +169,8 @@
     height: calc(100vh - 95px);
     position: absolute;
     top: 25px;
-    right: 160px;
-    z-index: -100;
+    right: 320px;
+    z-index: -500;
     /* opacity: 50; */
   }
 
@@ -284,16 +284,17 @@
 .mainMenu {
   
   margin-top: 35px;
+  margin-left: 2vw;
   position: relative;
   display: grid;
   grid-template-rows: 35vh 35vh ; /* 3 строки */
   grid-template-columns: 20vw 20vw 20vw 20vw 20vw;
-  z-index: 10;
+  z-index: 666;
 } 
 
 .menuItem {
   
-  
+  z-index: 666;
   display: inline-grid;
   
 }
@@ -325,10 +326,13 @@
   /* margin-right: 15px; */
   font-size: 5vh ;
   text-align: center;
+  
 }
 
 .image {
   margin-top: -25px;
+  opacity: 0.85;
+  
 }
 
 
@@ -378,6 +382,8 @@
       <path id="Path_40" data-name="Path 40" d="M644.6,141S143.02,215.537,147.049,870.207s342.774,201.755,342.774,201.755S404.659,847.213,388.815,762.2c-27.116-145.51-11.551-384.124,271.9-609.1C671.15,139.365,644.6,141,644.6,141Z" transform="translate(-147.025 -140.939)" fill="#f5f5f5"/>
     </svg>
   </div>
+
+  <router-outlet></router-outlet>
 
 <div class="mainMenu">
   <div class="menuItem">
@@ -476,4 +482,4 @@
 
 </div>
 
-<router-outlet></router-outlet>
+

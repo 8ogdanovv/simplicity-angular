@@ -1,5 +1,33 @@
 <div class="paragraph">
 
+    <div class="mainTitle">{{mainTitle}}</div>
+
 <H1>ng-router  {{ title }}</H1>
+<div class="textContainer">
+
+    <p>
+        The application already uses the Angular Router to navigate internal path routing.
+        <br>In ng-cli chapter You have already know how to generate component.
+        <br>Now we've going to describe ng-router and its dependencies.
+    </p>
+    <p>
+        First of all we should go to app.module.ts file and add a route path for our component.
+        <br>It makes this path available for app-routing.module.ts.
+    </p>
+    <div class="imageContent">
+        <!-- <img height="300" width="900" src="./app-routing1.jpg"> -->
+    </div>
+    <p>
+        Next step You can use your internal links. For this goal You may just add
+</p>
+<div class="codeFrame">routerLink="./cli" routerLinkActive="active"</div>
+<br>to anchor link or button element.
+<br>In this case new link route-path will get us to ./cli internal link.
+    <div class="imageContentt">
+        <!-- <img src="" alt=""> -->
+    </div>
+    <br>Also for more informaton You can follow this link <a href="https://angular.io/guide/router">https://angular.io/guide/router</a>.
+</div>
+
 
 </div>

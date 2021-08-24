@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NgRouterComponent implements OnInit {
   title: string = ' HOW IT WORKS?!..';
+  mainTitle: string = 'NG-ROUTER';
 
   constructor() { }
 

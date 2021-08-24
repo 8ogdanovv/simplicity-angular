@@ -62,3 +62,39 @@ h1 {
     margin-bottom: 0%;
     padding-right: 1.5vw;
 }
+
+.imageContent {
+    margin-left: 10vw;
+    margin-top: 2vw;
+    width: 620px;
+    height: 335px;
+    z-index: 500;
+    background-image: url("./app-routing1.jpg");
+    background-size: cover;
+    margin-left: 4vw;
+    /* margin-right: 30vw; */
+    
+}
+
+.imageContentt {
+    margin-left: 10vw;
+    margin-top: 2vw;
+    width: 620px;
+    height: 320px;
+    z-index: 500;
+    background-image: url("./app-routing2.jpg");
+    background-size: cover;
+    margin-left: 4vw;
+}
+/*
+.imageContenttt {
+    margin-left: 10vw;
+    margin-top: 2vw;
+    width: 600px;
+    height: 335px;
+    z-index: 500;
+    background-image: url("./ng-help.png");
+    background-size: cover;
+    margin-left: 4vw; 
+}
+*/

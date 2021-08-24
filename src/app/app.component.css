@@ -21,7 +21,7 @@
     font-family: 'OpenSans';
     font-weight: bolder;
     font-size: 3.5vh;
-    color: whitesmoke;
+    color: rgb(255, 174, 0);
     /* text-shadow: 1px 1px 2px black, 0 0 1vh black, 0 0 0.2em black; */
     /* text-transform:unset;
     text-overflow: ellipsis; */
@@ -47,7 +47,7 @@ a {
     background-size: cover;
     /* z-index: 12; */
     /* background-color: blanchedalmond; */
-
+    text-shadow: rgb(0, 0, 0) 0 0 1vw;
 }
 
 

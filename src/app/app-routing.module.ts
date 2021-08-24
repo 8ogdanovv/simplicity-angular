@@ -14,20 +14,23 @@ import { NgMaterialCdkComponent } from './ng-material-cdk/ng-material-cdk.compon
 
 
 const routes: Routes = [
-  { path: 'cli', component: NgCliComponent },
-  { path: 'router', component: NgRouterComponent },
-  { path: 'http', component: NgHttpComponent },
-  { path: 'forms', component: NgFormsComponent },
-  { path: 'animations', component: NgAnimationsComponent },
-  { path: 'i18n', component: NgI18nComponent },
-  { path: 'testing', component: NgTestingComponent },
-  { path: 'language-services', component: NgLanguageServicesComponent },
-  { path: 'universal', component: NgUniversalComponent },
-  { path: 'material-cdk', component: NgMaterialCdkComponent }
+  
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot([
+    { path: 'cli', component: NgCliComponent },
+    { path: 'router', component: NgRouterComponent },
+    { path: 'http', component: NgHttpComponent },
+    { path: 'forms', component: NgFormsComponent },
+    { path: 'animations', component: NgAnimationsComponent },
+    { path: 'i18n', component: NgI18nComponent },
+    { path: 'testing', component: NgTestingComponent },
+    { path: 'language-services', component: NgLanguageServicesComponent },
+    { path: 'universal', component: NgUniversalComponent },
+    { path: 'material-cdk', component: NgMaterialCdkComponent }
+  ]),
+],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
