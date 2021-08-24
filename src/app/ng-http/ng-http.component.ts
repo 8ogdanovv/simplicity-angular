@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ng-http.component.css']
 })
 export class NgHttpComponent implements OnInit {
+  title: string = ' HOW IT WORKS?!..';
+  mainTitle: string = 'NG-HTTP';
 
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
 }

@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ng-testing.component.css']
 })
 export class NgTestingComponent implements OnInit {
+  title: string = ' HOW IT WORKS?!..';
+  mainTitle: string = 'NG-TESTING';
 
   constructor() { }
 

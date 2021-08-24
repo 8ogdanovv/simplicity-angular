@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ng-forms.component.css']
 })
 export class NgFormsComponent implements OnInit {
+  title: string = ' HOW IT WORKS?!..';
+  mainTitle: string = 'NG-FORMS';
 
   constructor() { }
 

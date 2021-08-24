@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ng-material-cdk.component.css']
 })
 export class NgMaterialCdkComponent implements OnInit {
+  title: string = ' HOW IT WORKS?!..';
+  mainTitle: string = 'NG-MAERIAL&CDK';
 
   constructor() { }
 
