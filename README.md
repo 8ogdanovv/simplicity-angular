@@ -1,6 +1,6 @@
 # Simplicity Angular
 
-[![Project Screenshot](https://github.com/vadym4che/simplicity-angular/blob/master/screenshot.png)](https://vadym4che.github.io/simplicity-angular/)
+[![Project Screenshot](https://github.com/vadym4che/simplicity-angular/blob/main/screenshot.png)](https://vadym4che.github.io/simplicity-angular/)
 
 ## Overview
 
